@@ -1,4 +1,4 @@
-const BollywoodPost = (req,res) => {
+const BollywoodData = (req,res) => {
     res.send([
         {
             id:1,
@@ -36,5 +36,54 @@ const BollywoodPost = (req,res) => {
           }    
     ])
 }
-
-module.exports.getBollywoodPost = BollywoodPost;
+const BollywoodFirstData = (req,res) => {
+    res.send([
+        {
+            id:1,
+            img:"https://www.hollywoodreporter.com/wp-content/uploads/2022/11/GettyImages-1443142868-copy.jpg?w=1296&h=730&crop=1&resize=681%2C383",
+            title:"Photo of Taylor Swift at American Awards",
+            date:"Nov 13, 2022",
+            type:"Hollywood",
+            num:"1"
+          }
+    ])
+}
+const BollywoodTopData = (req,res) => {
+    res.send([
+        {
+            id:1,
+            img:"https://www.hollywoodreporter.com/wp-content/uploads/2022/11/GettyImages-1173752202.jpg?w=390&h=220&crop=1",
+            title:"David ‘Avalon’ Scrapped",
+            date:"Nov 13, 2022",
+            type:"Hollywood",
+            num:"2"
+          },
+          {
+            id:2,
+            img:"https://www.pinkvilla.com/english/images/2022/11/1669832983_pete-davidson-emily-ratajkowski_1280*720.jpg",
+            title:"Pete dating Emily rumour",
+            date:"Nov 13, 2022",
+            type:"Hollywood",
+            num:"3"
+          },
+          {
+            id:3,
+            img:"https://www.pinkvilla.com/english/images/2022/11/1677487155_ric-flair_1280*720.jpg",
+            title:"Ric F discuss CM Punk",
+            date:"Nov 12, 2022",
+            type:"Hollywood",
+            num:"4"
+          },
+          {
+            id:4,
+            img:"https://www.pinkvilla.com/english/images/2022/11/917857840_wonder-review_1280*720.jpg",
+            title:"Floren arrest performance",
+            date:"Nov 12, 2022",
+            type:"Hollywood",
+            num:"5"
+          }
+    ])
+}
+module.exports.getBollywoodData = BollywoodData;
+module.exports.getBollywoodFirstData = BollywoodFirstData;
+module.exports.getBollywoodTopData = BollywoodTopData;
