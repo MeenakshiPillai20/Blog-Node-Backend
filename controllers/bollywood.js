@@ -38,50 +38,50 @@ const BollywoodData = (req,res) => {
 }
 const BollywoodFirstData = (req,res) => {
     res.send([
-        {
-            id:1,
-            img:"https://www.hollywoodreporter.com/wp-content/uploads/2022/11/GettyImages-1443142868-copy.jpg?w=1296&h=730&crop=1&resize=681%2C383",
-            title:"Photo of Taylor Swift at American Awards",
-            date:"Nov 13, 2022",
-            type:"Hollywood",
-            num:"1"
-          }
+      {
+        id:1,
+        img:"https://images.hindustantimes.com/img/2022/11/13/550x309/rajkummar_rao__1668337052380_1668337069198_1668337069198.webp",
+        title:"Rajkumar reveal first pay was ₹300 ",
+        date:"Nov 13, 2022",
+        type:"Bollywood",
+        num:"1"
+      }
     ])
 }
 const BollywoodTopData = (req,res) => {
     res.send([
-        {
-            id:1,
-            img:"https://www.hollywoodreporter.com/wp-content/uploads/2022/11/GettyImages-1173752202.jpg?w=390&h=220&crop=1",
-            title:"David ‘Avalon’ Scrapped",
-            date:"Nov 13, 2022",
-            type:"Hollywood",
-            num:"2"
-          },
-          {
-            id:2,
-            img:"https://www.pinkvilla.com/english/images/2022/11/1669832983_pete-davidson-emily-ratajkowski_1280*720.jpg",
-            title:"Pete dating Emily rumour",
-            date:"Nov 13, 2022",
-            type:"Hollywood",
-            num:"3"
-          },
-          {
-            id:3,
-            img:"https://www.pinkvilla.com/english/images/2022/11/1677487155_ric-flair_1280*720.jpg",
-            title:"Ric F discuss CM Punk",
-            date:"Nov 12, 2022",
-            type:"Hollywood",
-            num:"4"
-          },
-          {
-            id:4,
-            img:"https://www.pinkvilla.com/english/images/2022/11/917857840_wonder-review_1280*720.jpg",
-            title:"Floren arrest performance",
-            date:"Nov 12, 2022",
-            type:"Hollywood",
-            num:"5"
-          }
+      {
+        id:1,
+        img:"https://images.hindustantimes.com/img/2022/11/13/550x309/Akshay-Kumar_1668328026802_1668328027071_1668328027071.jpg",
+        title:"Akshay wants to reduce",
+        date:"Nov 13, 2022",
+        type:"Bollywood",
+        num:"2"
+      },
+      {
+        id:2,
+        img:"https://images.hindustantimes.com/img/2022/11/13/550x309/Raveena_Tandon_Juhi_Chawla_1668335407809_1668335419478_1668335419478.jpg",
+        title:"Raveena wished Juhi",
+        date:"Nov 13, 2022",
+        type:"Bollywood",
+        num:"3"
+      },
+      {
+        id:3,
+        img:"https://images.hindustantimes.com/img/2022/11/12/550x309/amitabhbachchan_1668229088393_1668229088667_1668229088667.jpg",
+        title:" BTS Amitabh Bachchan",
+        date:"Nov 12, 2022",
+        type:"Bollywood",
+        num:"4"
+      },
+      {
+        id:4,
+        img:"https://images.hindustantimes.com/img/2022/11/21/550x309/aaradhya_birthday_party_1669011025847_1669011026027_1669011026027.jpg",
+        title:"Aaradhya's Birthday",
+        date:"Nov 12, 2022",
+        type:"Bollywood",
+        num:"5"
+      }
     ])
 }
 module.exports.getBollywoodData = BollywoodData;
