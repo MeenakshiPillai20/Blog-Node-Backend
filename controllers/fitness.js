@@ -86,4 +86,4 @@ const FitnessTopData = (req,res) => {
 }
 module.exports.getFitnessData = FitnessData;
 module.exports.getFitnessFirstData = FitnessFirstData;
-module.exports.getFitnessTopData = FitnessTopData;
+module.exports.getFitnessTopData = FitnessTopData; 
